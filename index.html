@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="alert('hello world')">click</button> -->
+
+    <script>
+        var a = 'hello world'
+        console.log(a,typeof (a))
+
+        var b = 123
+        console.log(b, typeof(b))
+
+        var c = true
+        console.log(c, typeof(c))
+
+        var d=["d","a","3"]
+        console.log(d,typeof(d))
+        // array is considered as an object
+
+        var e = {name:"john" , age:32}
+        console.log(e, typeof(e))
+
+        var g = new Date();
+        console.log(g)
+
+        var h = new Object();
+        console.log(h, typeof(h))
+        // works as a object
+
+        var i = !50;
+        console.log(i, typeof(i))
+        // false 
+
+        var name = "Faisal";
+        console.log(name,typeof(name))
+
+
+        var firstName = "haseeb"
+        var lastName = "arshad"
+        console.log("my first name is " + firstName + " and my last name is " + lastName )
+
+        var a = 10;
+        var b = 20;
+        console.log("the sum of a and b is ",(a+b))
+
+        // var name;
+        // var _name;
+        // var $name;
+        // var first_name; // snake case writing
+        // var firstName; // camal case writing
+        // var FirstName; // pascal case writing
+        // var name1st;
+
+        // variable with unfamilarity method
+
+        var a = 10;
+        a = a+10;
+        console.log(a)
+
+        var n = 20;
+        n *= n;
+        console.log(n)
+
+        // variable math ambiguity
+        var sum = (3+5)*5;
+        console.log(sum)
+
+        // input from the user 
+
+        // var input = prompt ("enter the age","hello");
+        // input = Number(input)
+        // console.log("your age is " + input,typeof(input))
+
+        // let marks=prompt("enter the marks")
+        // if (marks>=90)
+        // {
+        //     console.log("you got grade A")
+        // }
+        // else if (marks>=80)
+        // {
+        //     console.log("you got grade B")
+        // }
+        // else if (marks>=70)
+        // {
+        //     console.log("you got grade C")
+        // }
+        // else if (marks>=60)
+        // {
+        //     console.log("you got grade D")
+        // }
+
+
+        // var nam = 11;
+        // if (nam === 10){
+        //     console.log("name value is "+ nam)
+        // }
+        // else if (nam === 10){
+        // console.log("na value is"+ na)
+        // }
+        // else{
+        //     console.log("nam and na neither or nor 10")
+        // }
+
+        // ternary operators
+
+        // var nam = prompt("enter the marks","enter the marks")
+        // nam = Number(nam);
+        // (nam==10) ? console.log("pass a ") : (name == 20) ? console.log("pass b") : console.log("pass c")
+        // ecmascript
+        // var num=prompt("enter the marks")
+        // num=Number(num)
+        // if(num>=90){
+        //     console.log("grade A")
+        // }
+        // else if(num>=80){
+        //     console.log("grade B")
+        // }
+        // else if(num>=70){
+        //     console.log("grade C")
+        // }
+        // else if(num>=60){
+        //     console.log("grade D")
+        // }
+        // else{
+        //     document.write("fail")
+        // }
+       
+        // let age = prompt("enter your age ")
+        // age = Number(age)
+        // if (age >= 18){
+        //    alert("you are eligible to vote")
+        // }
+        // else{
+        //     alert("you are not eligible to vote")
+        // }
+
+        // let gross_salary ,basic_salary,items_broken,items_sold;
+        // let bonus = 0;
+        // basic_salary=prompt("enter your basic salary")
+        // basic_salary = Number(basic_salary)
+        // items_broken = prompt("enter the number of items broken")
+        // items_broken = Number(items_broken)
+        // items_sold = prompt("enter the number of items sold")
+        // items_sold = Number(items_sold)
+        // if (items_sold>=100 && items_sold==0){
+        //     bonus==10000;
+        // };
+        // gross_salary = basic_salary + (items_sold*8) + bonus;
+        // alert("the gross salary of an employee is  " + gross_salary)
+
+        let fruit =prompt("enter your favourite fruit ");
+
+switch (fruit) {
+    case "apple":
+        alert("It's an apple.");
+        break;
+    case "orange":
+        alert("It's an orange.");
+        break;
+    case "mango":
+        alert("It's a mango.");
+        break;
+    default:
+        alert("Unknown fruit.");
+}
+        
+    </script>
+</body>
+</html>
